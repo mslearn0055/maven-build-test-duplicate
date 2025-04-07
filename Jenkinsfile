@@ -26,7 +26,7 @@ pipeline
         {
             steps 
             {
-                echo 'Deploy new  App'
+                deploy()
             }
         }
     }
