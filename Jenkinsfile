@@ -1,3 +1,5 @@
+@Library('jenkins-shared-libraries') _
+
 pipeline 
 {
     agent any
@@ -8,7 +10,7 @@ pipeline
         {
             steps 
             {
-                echo 'Build App'
+                mavenBuild()
             }
         }
 
@@ -16,7 +18,7 @@ pipeline
         {
             steps 
             {
-                echo 'Test App'
+                test()
             }
         }
 
