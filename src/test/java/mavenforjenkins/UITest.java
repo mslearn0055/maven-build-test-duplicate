@@ -1,6 +1,5 @@
 package mavenforjenkins;
 
-import java.util.Optional; // optional: not required if you're using TestNG's @Optional
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
